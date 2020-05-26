@@ -21,9 +21,10 @@ function pressIt(){
 }
 
 function submitIt() {
-  $("form").submit(function() {
-    alert("Your form is going to be submnitted now.")
-  })
+  $( "#target" ).submit(function( event ) {
+  alert( "Handler for .submit() called." );
+  event.preventDefault();
+});
 }
 
 
