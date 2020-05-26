@@ -11,11 +11,17 @@ function frameIt() {
   })
 }
 
-pressIt() {
+function pressIt(){
   $("input").on("keydown", function(){
-   if(key.which == 71) {
+   if (key.which == 71) {
      alert("g was pressed")
    }
+  })
+}
+
+function submitIt() {
+  $("form").on("submit", function() {
+    alert("Your form is going to be submnitted now.")
   })
 }
 
