@@ -8,7 +8,7 @@ function getIt() {
 function frameIt() {
   $("img").on("load", function() {
     var minion = $("img")
-    minion.classList.add("tasty")
+    minion[0].classList.add("tasty")
   })
 }
 
