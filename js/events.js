@@ -13,11 +13,13 @@ function frameIt() {
 
 pressIt() {
   $("input").on("keydown", function(){
-   if (key.which === "g") {
+   if (key.which == 71) {
      alert("g was pressed")
    }
   })
 }
+
+
 $(document).ready(function(){
 
 // call functions here
